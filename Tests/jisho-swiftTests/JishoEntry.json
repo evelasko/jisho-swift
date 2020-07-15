@@ -1,0 +1,64 @@
+{
+            "slug": "痘痕もえくぼ",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "馬の耳に念仏",
+                    "reading": "うまのみみにねんぶつ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "preaching to the deaf",
+                        "reading the nenbutsu into a horse's ear"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Idiomatic expression"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "念仏"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "A Nod Is As Good As a Wink... to a Blind Horse"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “A Nod Is As Good As a Wink... to a Blind Horse” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/A_Nod_Is_As_Good_As_a_Wink..._to_a_Blind_Horse?oldid=486166977"
+                        },
+                        {
+                            "text": "Read “馬の耳に念仏” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/馬の耳に念仏?oldid=42680752"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/A_Nod_Is_As_Good_As_a_Wink..._to_a_Blind_Horse"
+            }
+        }

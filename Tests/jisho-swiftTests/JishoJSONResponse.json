@@ -1,0 +1,956 @@
+{
+    "meta": {
+        "status": 200
+    },
+    "data": [
+        {
+            "slug": "馬の耳に念仏",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "馬の耳に念仏",
+                    "reading": "うまのみみにねんぶつ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "preaching to the deaf",
+                        "reading the nenbutsu into a horse's ear"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Idiomatic expression"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "念仏"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "A Nod Is As Good As a Wink... to a Blind Horse"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “A Nod Is As Good As a Wink... to a Blind Horse” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/A_Nod_Is_As_Good_As_a_Wink..._to_a_Blind_Horse?oldid=486166977"
+                        },
+                        {
+                            "text": "Read “馬の耳に念仏” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/馬の耳に念仏?oldid=42680752"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/A_Nod_Is_As_Good_As_a_Wink..._to_a_Blind_Horse"
+            }
+        },
+        {
+            "slug": "文化",
+            "is_common": true,
+            "tags": [
+                "wanikani6"
+            ],
+            "jlpt": [
+                "jlpt-n4"
+            ],
+            "japanese": [
+                {
+                    "word": "文化",
+                    "reading": "ぶんか"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "culture",
+                        "civilization",
+                        "civilisation"
+                    ],
+                    "parts_of_speech": [
+                        "Noun"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Bunka era (1804.2.11-1818.4.22)"
+                    ],
+                    "parts_of_speech": [],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Bunka"
+                    ],
+                    "parts_of_speech": [
+                        "Place"
+                    ],
+                    "links": [],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Culture"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Culture” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Culture?oldid=494923369"
+                        },
+                        {
+                            "text": "Read “文化” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/文化?oldid=42421185"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": true,
+                "dbpedia": "http://dbpedia.org/resource/Culture"
+            }
+        },
+        {
+            "slug": "痘痕も靨",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "痘痕も靨",
+                    "reading": "あばたもえくぼ"
+                },
+                {
+                    "word": "痘痕もえくぼ",
+                    "reading": "あばたもえくぼ"
+                },
+                {
+                    "reading": "アバタもエクボ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "love is blind",
+                        "(when in love) even pockmarks are dimples"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Usually written using kana alone",
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "男に二言はない",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "男に二言はない",
+                    "reading": "おとこににごんはない"
+                },
+                {
+                    "word": "男に二言は無い",
+                    "reading": "おとこににごんはない"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "a man's word is his bond",
+                        "a man does not go back on what he's said"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "二言 にごん"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "時は金なり",
+            "is_common": true,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "時は金なり",
+                    "reading": "ときはかねなり"
+                },
+                {
+                    "word": "時は金也",
+                    "reading": "ときはかねなり"
+                },
+                {
+                    "word": "時は金成り",
+                    "reading": "ときはかねなり"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "time is money"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "急がば回れ",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "急がば回れ",
+                    "reading": "いそがばまわれ"
+                },
+                {
+                    "word": "急がば廻れ",
+                    "reading": "いそがばまわれ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "more haste, less speed",
+                        "slow and steady wins the race"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "Walk, Don't Run (song)"
+                    ],
+                    "parts_of_speech": [
+                        "Wikipedia definition"
+                    ],
+                    "links": [
+                        {
+                            "text": "Read “Walk, Don't Run (song)” on English Wikipedia",
+                            "url": "http://en.wikipedia.org/wiki/Walk,_Don't_Run_(song)?oldid=495244317"
+                        },
+                        {
+                            "text": "Read “急がば廻れ” on Japanese Wikipedia",
+                            "url": "http://ja.wikipedia.org/wiki/急がば廻れ?oldid=42370822"
+                        }
+                    ],
+                    "tags": [],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": [],
+                    "sentences": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": "http://dbpedia.org/resource/Walk,_Don't_Run_(song)"
+            }
+        },
+        {
+            "slug": "馬子にも衣装",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "馬子にも衣装",
+                    "reading": "まごにもいしょう"
+                },
+                {
+                    "word": "馬子にも衣裳",
+                    "reading": "まごにもいしょう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "anybody can look good with the right clothes",
+                        "clothes make the man",
+                        "fine feathers make fine birds",
+                        "clothes on a packhorse driver"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "捕らぬ狸の皮算用",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "捕らぬ狸の皮算用",
+                    "reading": "とらぬたぬきのかわざんよう"
+                },
+                {
+                    "word": "取らぬ狸の皮算用",
+                    "reading": "とらぬたぬきのかわざんよう"
+                },
+                {
+                    "word": "獲らぬ狸の皮算用",
+                    "reading": "とらぬたぬきのかわざんよう"
+                },
+                {
+                    "word": "とらぬ狸の皮算用",
+                    "reading": "とらぬたぬきのかわざんよう"
+                },
+                {
+                    "word": "捕らぬタヌキの皮算用",
+                    "reading": "とらぬタヌキのかわざんよう"
+                },
+                {
+                    "word": "取らぬタヌキの皮算用",
+                    "reading": "とらぬタヌキのかわざんよう"
+                },
+                {
+                    "word": "獲らぬタヌキの皮算用",
+                    "reading": "とらぬタヌキのかわざんよう"
+                },
+                {
+                    "word": "とらぬタヌキの皮算用",
+                    "reading": "とらぬタヌキのかわざんよう"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "counting one's chickens before they've hatched",
+                        "counting raccoon dog skins before they have been caught"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Idiomatic expression"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "正直者が馬鹿を見る",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "正直者が馬鹿を見る",
+                    "reading": "しょうじきものがばかをみる"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "honesty doesn't pay",
+                        "life is unfair"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "悪事千里を走る",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "悪事千里を走る",
+                    "reading": "あくじせんりをはしる"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "bad news travels quickly"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "悪事千里"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "出る杭は打たれる",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "出る杭は打たれる",
+                    "reading": "でるくいはうたれる"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "the nail that sticks out gets hammered down",
+                        "people that stick out too much get punished"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "出る釘は打たれる"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                },
+                {
+                    "english_definitions": [
+                        "tall trees catch much wind",
+                        "people that excel at something become disliked"
+                    ],
+                    "parts_of_speech": [],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "出る釘は打たれる"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "転石苔を生ぜず",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "転石苔を生ぜず",
+                    "reading": "てんせきこけをしょうぜず"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "a rolling stone gathers no moss"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "灯台下暗し",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "灯台下暗し",
+                    "reading": "とうだいもとくらし"
+                },
+                {
+                    "word": "灯台もと暗し",
+                    "reading": "とうだいもとくらし"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "it is darkest under the lamp post",
+                        "it's hard to see what is under your nose",
+                        "go abroad to hear of home",
+                        "you must go into the country to hear what news at London"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "言わぬが花",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "言わぬが花",
+                    "reading": "いわぬがはな"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "some things are better left unsaid",
+                        "silence is golden"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "同病相憐れむ",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "同病相憐れむ",
+                    "reading": "どうびょうあいあわれむ"
+                },
+                {
+                    "word": "同病相哀れむ",
+                    "reading": "どうびょうあいあわれむ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "fellow sufferers pity each other"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [
+                        "相憐れむ"
+                    ],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "虎穴に入らずんば虎子を得ず",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "虎穴に入らずんば虎子を得ず",
+                    "reading": "こけつにいらずんばこじをえず"
+                },
+                {
+                    "word": "虎穴に入らずんば虎児を得ず",
+                    "reading": "こけつにいらずんばこじをえず"
+                },
+                {
+                    "word": "虎穴に入らずんば虎子を得ず",
+                    "reading": "こけつにいらずんばこしをえず"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "nothing ventured, nothing gained",
+                        "you will not get the tiger cub without entering the tiger's den"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "大は小を兼ねる",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "大は小を兼ねる",
+                    "reading": "だいはしょうをかねる"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "the greater embraces the less",
+                        "better too big than too small"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "窮鼠猫を噛む",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "窮鼠猫を噛む",
+                    "reading": "きゅうそねこをかむ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "a cornered rat will bite a cat",
+                        "despair turns cowards courageous"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "嘘も方便",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "嘘も方便",
+                    "reading": "うそもほうべん"
+                },
+                {
+                    "word": "うそも方便",
+                    "reading": "うそもほうべん"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "the end justifies the means",
+                        "circumstances may justify a lie"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        },
+        {
+            "slug": "弱り目に祟り目",
+            "is_common": false,
+            "tags": [],
+            "jlpt": [],
+            "japanese": [
+                {
+                    "word": "弱り目に祟り目",
+                    "reading": "よわりめにたたりめ"
+                }
+            ],
+            "senses": [
+                {
+                    "english_definitions": [
+                        "misfortunes never come singly"
+                    ],
+                    "parts_of_speech": [
+                        "Expression"
+                    ],
+                    "links": [],
+                    "tags": [
+                        "Proverb"
+                    ],
+                    "restrictions": [],
+                    "see_also": [],
+                    "antonyms": [],
+                    "source": [],
+                    "info": []
+                }
+            ],
+            "attribution": {
+                "jmdict": true,
+                "jmnedict": false,
+                "dbpedia": false
+            }
+        }
+    ]
+}
