@@ -38,12 +38,104 @@ final class jisho_swiftTests: XCTestCase {
         }
     }
     
-    func test_ShouldReturnJishoResultsAndFuriganaData() {
-        let expectation = XCTestExpectation(description: "fetch proverbs from Jisho API")
+    func test_ShouldReturnJishoResultsForJLPTLevel() {
+        let expectation = XCTestExpectation(
+            description: "fetch proverbs from Jisho API with term search"
+        )
         
         var jishoResults: JishoResult?
         
-        guard let cancellable = try? Jisho.getProverbs()
+        guard let cancellable = try? Jisho.searchFor(
+                JLPTLevel: 2,
+                page: 1)
+                .sink(
+                    receiveCompletion:  {_ in print("Received completion")},
+                    receiveValue: { result in
+                        XCTAssertGreaterThan(result.data.count, 3)
+                        for entry in result.data {
+                            XCTAssertNotNil(entry.slug)
+                            XCTAssertNotNil(entry.isCommon)
+                            XCTAssertNotNil(entry.tags)
+                            XCTAssertNotNil(entry.jlpt)
+                            XCTAssertNotNil(entry.japanese)
+                            XCTAssertFalse(entry.japanese.isEmpty)
+                            XCTAssertNotNil(entry.senses)
+                            XCTAssertFalse(entry.senses.isEmpty)
+                        }
+                        jishoResults = result
+                        expectation.fulfill()
+                    }
+                )
+        else {
+            print("Test failed to start network request")
+            XCTFail()
+            return
+        }
+        
+        XCTAssertNotNil(cancellable)
+        wait(for: [expectation], timeout: 5.0)
+        
+        guard let jishoEntry = jishoResults?.data.first else {
+            print("Test failed to save fetched Jisho results...")
+            XCTFail()
+            return
+        }
+        XCTAssertNotNil(jishoEntry)
+    
+    }
+    
+    func test_ShouldReturnJishoResultsForWanikaniLevel() {
+        let expectation = XCTestExpectation(
+            description: "fetch proverbs from Jisho API with term search"
+        )
+        
+        var jishoResults: JishoResult?
+        
+        guard let cancellable = try? Jisho.searchFor(wanikaniLevel: 3, page: 1)
+                .sink(
+                    receiveCompletion:  {_ in print("Received completion")},
+                    receiveValue: { result in
+                        XCTAssertGreaterThan(result.data.count, 3)
+                        for entry in result.data {
+                            XCTAssertNotNil(entry.slug)
+                            XCTAssertNotNil(entry.isCommon)
+                            XCTAssertNotNil(entry.tags)
+                            XCTAssertNotNil(entry.jlpt)
+                            XCTAssertNotNil(entry.japanese)
+                            XCTAssertFalse(entry.japanese.isEmpty)
+                            XCTAssertNotNil(entry.senses)
+                            XCTAssertFalse(entry.senses.isEmpty)
+                        }
+                        jishoResults = result
+                        expectation.fulfill()
+                    }
+                )
+        else {
+            print("Test failed to start network request")
+            XCTFail()
+            return
+        }
+        
+        XCTAssertNotNil(cancellable)
+        wait(for: [expectation], timeout: 5.0)
+        
+        guard let jishoEntry = jishoResults?.data.first else {
+            print("Test failed to save fetched Jisho results...")
+            XCTFail()
+            return
+        }
+        XCTAssertNotNil(jishoEntry)
+    
+    }
+    
+    func test_ShouldReturnJishoResultsForTermSearch() {
+        let expectation = XCTestExpectation(
+            description: "fetch proverbs from Jisho API with term search"
+        )
+        
+        var jishoResults: JishoResult?
+        
+        guard let cancellable = try? Jisho.searchFor(term: .Proverb, page: 1)
                 .sink(
                     receiveCompletion:  {_ in print("Received completion")},
                     receiveValue: { result in
@@ -108,6 +200,7 @@ final class jisho_swiftTests: XCTestCase {
                     receiveValue: {
                         print($0)
                         XCTAssertNotNil($0)
+                        XCTAssertTrue($0.furigana.count > 0)
                         expectation2.fulfill()
                     }
                 )
@@ -122,8 +215,25 @@ final class jisho_swiftTests: XCTestCase {
     }
     
     static var allTests = [
-        ("test_getJishoResultForSearch", test_getJishoResultForSearch),
-        ("test_ShouldReturnJishoResultsAndFuriganaData", test_ShouldReturnJishoResultsAndFuriganaData),
-        ("test_FuriganaDataFetch", test_FuriganaDataFetch)
+        (
+            "test_getJishoResultForSearch",
+            test_getJishoResultForSearch
+        ),
+        (
+            "test_ShouldReturnJishoResultsForJLPTLevel",
+            test_ShouldReturnJishoResultsForJLPTLevel
+        ),
+        (
+            "test_ShouldReturnJishoResultsForWanikaniLevel",
+            test_ShouldReturnJishoResultsForWanikaniLevel
+        ),
+        (
+            "test_ShouldReturnJishoResultsForTermSearch",
+            test_ShouldReturnJishoResultsForTermSearch
+        ),
+        (
+            "test_FuriganaDataFetch",
+            test_FuriganaDataFetch
+        )
     ]
 }

@@ -19,6 +19,7 @@ public struct JishoEntry: Decodable {
     public let slug: String
     /// Is commonly used?
     public let isCommon: Bool
+    /// Result's tags
     public let tags: [String]
     /// JLPT Levels
     public let jlpt: [String]
@@ -53,6 +54,14 @@ public struct Link: Decodable {
 }
 
 public struct FuriganaEntry: Decodable {
+    
+    public init(original: String, hiragana: String, katakana: String, romaji: String) {
+        self.original = original
+        self.hiragana = hiragana
+        self.katakana = katakana
+        self.romaji = romaji
+    }
+    
     public let original: String
     public let hiragana: String
     public let katakana: String

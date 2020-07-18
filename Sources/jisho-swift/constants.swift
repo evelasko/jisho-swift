@@ -8,10 +8,6 @@
 
 import Foundation
 
-//MARK: - String Management
-let KATAKANA_HIRAGANA_SHIFT = UInt32(0x30a1 - 0x3041)
-let HIRAGANA_KATAKANA_SHIFT = UInt32(0x30a1 - 0x3041)
-
 //MARK: - URL
 let URL_Scheme = "https"
 
@@ -41,14 +37,17 @@ func getFirebaseFnBaseURLComponents() -> URLComponents {
     return components
 }
 
-var urlJishoSearch_Proverbs: URL {
+
+//MARK: - Jisho Search URL
+func getURLJishoSearchFor(_ string: String, _ page: Int? ) -> URL {
     var components = getJishoBaseURLComponents()
     components.queryItems = [
-        URLQueryItem(name: "keyword", value: "#proverb")
+        URLQueryItem(name: "keyword", value: string),
+        URLQueryItem(name: "page", value: String(page ?? 1))
     ]
     guard let url = components.url else {
         fatalError(
-            failedToComposeUrl(for: "Jisho API search: Proverbs"))
+            failedToComposeUrl(for: "Jisho API search: \(string)"))
     }
     return url
 }

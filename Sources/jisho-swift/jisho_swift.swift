@@ -13,26 +13,59 @@ public enum Jisho {
 
 //MARK: - Combine Framework Implementation
 public extension Jisho {
-    
-    static func proverbs() -> AnyPublisher<[JishoResult], Error> {
-        /// Create a URLRequest instance, which describes the request.
-        /// It doesn’t need any additional set up, since the HTTP method defaults to GET
-        let request = URLRequest(url: urlJishoSearch_Proverbs)
-        /// Agent executes the request and passes forward the repositories, skipping the response object.
-        /// We skip response code validation to focus on the happy path
-        return agent.run(request)
-            .map(\.value)
-            .eraseToAnyPublisher()
-    }
-    
-    static func getProverbs() throws -> AnyPublisher<JishoResult, Error> {
+        
+    /// Search Jisho for a particular word term
+    static func searchFor(term: JishoSearchTerm, page: Int?) throws -> AnyPublisher<JishoResult, Error> {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
-        return URLSession.shared.dataTaskPublisher(for: urlJishoSearch_Proverbs)
+        return URLSession
+            .shared
+            .dataTaskPublisher(
+                for: getURLJishoSearchFor(
+                    term.rawValue,
+                    page
+                )
+            )
             .map { $0.data }
             .decode(type: JishoResult.self, decoder: decoder)
             .eraseToAnyPublisher()
     }
+    
+    /// Search for Kanji in JLPT Level (1-5)
+    static func searchFor(JLPTLevel level: Int, page: Int?) throws -> AnyPublisher<JishoResult, Error> {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return URLSession
+            .shared
+            .dataTaskPublisher(
+                for: getURLJishoSearchFor(
+                    "#jlpt-n\(level.boundTo(1, 5))",
+                    page
+                )
+            )
+            .map { $0.data }
+            .decode(type: JishoResult.self, decoder: decoder)
+            .eraseToAnyPublisher()
+    }
+    
+    /// Fecth Wanikani words by level (1-60)
+    static func searchFor(wanikaniLevel level: Int, page: Int?) throws -> AnyPublisher<JishoResult, Error> {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return URLSession
+            .shared
+            .dataTaskPublisher(for:
+                getURLJishoSearchFor(
+                    "#wanikani\(level.boundTo(1, 60))",
+                    page
+                )
+            )
+            .map { $0.data }
+            .decode(type: JishoResult.self, decoder: decoder)
+            .eraseToAnyPublisher()
+    }
+    
+    
     
     /// Retrieve the furigana entries for this slug
     static func getFurigana(forJishoEntry entry: JishoEntry) throws -> AnyPublisher<JishoFuriganaEntry, Error> {
