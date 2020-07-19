@@ -9,12 +9,12 @@
 import Foundation
 import Combine
 
-public struct JishoResult: Decodable {
+public struct JishoResult: Decodable, Hashable {
     public let data: [JishoEntry]
 }
 
 /// Entry struct for jisho api result entries
-public struct JishoEntry: Decodable {
+public struct JishoEntry: Decodable, Hashable {
     /// Entry value
     public let slug: String
     /// Is commonly used?
@@ -29,14 +29,14 @@ public struct JishoEntry: Decodable {
     public let senses: [Sense]
 }
 
-public struct JapaneseEntry: Decodable {
+public struct JapaneseEntry: Decodable, Hashable {
     /// Original sentence or word (kanji)
     public let word: String?
     /// Hiragana reading
     public let reading: String?
 }
 
-public struct Sense: Decodable {
+public struct Sense: Decodable, Hashable {
     public let englishDefinitions: [String]
     public let partsOfSpeech: [String]
     public let links: [Link]
@@ -48,12 +48,12 @@ public struct Sense: Decodable {
     public let info: [String]
 }
 
-public struct Link: Decodable {
+public struct Link: Decodable, Hashable {
     public let text: String?
     public let url: String?
 }
 
-public struct FuriganaEntry: Decodable {
+public struct FuriganaEntry: Decodable, Hashable {
     
     public init(original: String, hiragana: String, katakana: String, romaji: String) {
         self.original = original
@@ -68,7 +68,7 @@ public struct FuriganaEntry: Decodable {
     public let romaji: String
 }
 
-public struct JishoFuriganaEntry: Decodable {
+public struct JishoFuriganaEntry: Decodable, Hashable {
     public let jisho: JishoEntry
     public let furigana: [FuriganaEntry]
 }
